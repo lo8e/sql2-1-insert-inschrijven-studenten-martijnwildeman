@@ -20,3 +20,7 @@ VALUES (90002, "lo9e-amo1"),
 UPDATE studenten
 SET geboortedatum = "1997-09-30 00:00:00"
 WHERE ov_nummer = 90002;
+
+UPDATE studenten
+SET actief = 0
+WHERE inschrijvings_datum < '2017-01-01';
