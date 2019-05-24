@@ -16,3 +16,7 @@ VALUES (90002, "lo9e-amo1"),
 (90003, "lo9e-amo1"),
 (90004, "lo9e-amo1"),
 (90005, "lo9e-amo1");
+
+UPDATE studenten
+SET geboortedatum = "1997-09-30 00:00:00"
+WHERE ov_nummer = 90002;
